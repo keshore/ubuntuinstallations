@@ -7,6 +7,6 @@ cd ~/oracleInstall
 wget https://github.com/oracle/docker-images/archive/master.zip
 unzip master.zip
 cd ~/oracleInstall/docker-images-master/OracleDatabase/SingleInstance/dockerfiles
-./buildDockerImage.sh -x -v 18.4.0
+sudo ./buildDockerImage.sh -x -v 18.4.0
 cd ~
 rm -rf ~/oracleInstall
